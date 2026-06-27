@@ -1,0 +1,50 @@
+.cube {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  transition: width 2s ease, height 2s ease-in-out 2s;
+  animation-name: cube;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes cube {
+  0%, 100% {
+      opacity: .5;
+      border-radius: 30px;
+        transform: scale(1);
+      background-color: purple;
+        transform: rotate(180deg) translate(60px, 40px)skewY(60deg);
+  }
+  50% {
+      opacity: 1s;
+      border-radius: 37px;
+      background-color: lightskyblue;
+      transform: scale(1.5);
+      transform: rotate(-360deg) translate(40px, 60px)skewY(40deg);
+  }
+}
+.cube1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  transition: width 2s ease, height 2s ease-in-out 2s;
+  animation-name: cube2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes cube2 {
+  0%, 100% {
+      opacity: 1;
+      border-radius: 20px;
+        transform: scale(1);
+      background-color: blue;
+        transform: rotate(80deg) translate(-60px, 40px)skewY(80deg);
+  }
+  50% {
+      opacity: .5s;
+      border-radius: 17px;
+      background-color: burlywood;
+      transform: scale(1.5);
+      transform: rotate(-310deg) translate(50px, 60px)skewY(20deg);
+  }
+}
