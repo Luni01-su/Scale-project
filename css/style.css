@@ -40,6 +40,10 @@
       background-color: blue;
         transform: rotate(80deg) translate(-60px, 40px)skewY(80deg);
   }
+  25% {
+    background-color: rgba(232, 152, 193, 0.38);
+    transform: scale(.5) skew(20deg) translate(90px, 30px)
+  }
   50% {
       opacity: .5s;
       border-radius: 17px;
