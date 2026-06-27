@@ -42,7 +42,7 @@
   }
   25% {
     background-color: rgba(232, 152, 193, 0.38);
-    transform: scale(.5) skew(20deg) translate(90px, 30px)
+    transform: scale(.5) skew(20deg) translate(90px, 30px);
   }
   50% {
       opacity: .5s;
